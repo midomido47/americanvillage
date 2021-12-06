@@ -47,54 +47,54 @@
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_1.png"></p>
-                    <li class="date">2018/5/20</li>
-                    <li class="text">おしゃれカフェがありますよ</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/20</p>
+                    <p class="text">おしゃれカフェがありますよ</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
         
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_2.png"></p>
-                    <li class="date">2018/5/19</li>
-                    <li class="text">あのネオンはいつ交換するのか！？観覧車の謎に迫る！</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/19</p>
+                    <p class="text">あのネオンはいつ交換するのか！？<br>観覧車の謎に迫る！</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
 
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_3.png"></p>
-                    <li class="date">2018/5/18</li>
-                    <li class="text">ラソナの社内はこんなのよ</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/18</p>
+                    <p class="text">ラソナの社内はこんなのよ</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
 
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_4.png"></p>
-                    <li class="date">2018/5/17</li>
-                    <li class="text">お隣のアラハはハワイ？</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/17</p>
+                    <p class="text">お隣のアラハはハワイ？</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
 
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_5.png"></p>
-                    <li class="date">2018/5/16</li>
-                    <li class="text">なぜてんと？ラソナの人に聞いてみた</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/16</p>
+                    <p class="text">なぜてんと？ラソナの人に聞いてみた</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
 
             <li>
                 <a href="" class="article">
                     <p class="pic"><img src="assets/img/post/post_img_6.png"></p>
-                    <li class="date">2018/5/15</li>
-                    <li class="text">ベイエリアおしゃれすぎる空間</li>
-                    <li class="readmore">READ MORE</li>
+                    <p class="date">2018/5/15</p>
+                    <p class="text">ベイエリアおしゃれすぎる空間</p>
+                    <p class="readmore">READ MORE</p>
                 </a>
             </li>
         </ul>
