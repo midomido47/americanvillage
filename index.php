@@ -30,8 +30,9 @@
   </header>
 
   <main>
-    <section class="welcome">
+    <section class="container">
       <h1 class="title">Welcome to Nexseed</h1>
+      <div id =""></>
       <ul class="guideline">
         <li>Be Athlete</li>
         <li>Go World</li>
@@ -57,4 +58,9 @@
       </div>
     </section>
   </main>
-<?php get_footer(); ?>
+  <footer>
+    <p>Copyright <small>&copy;</small> SeedKun Inc.</p>
+  </footer>
+</body>
+
+</html>
