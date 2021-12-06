@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
   <title>American Village</title>
 </head>
 
@@ -26,10 +27,32 @@
             <a href="/"><img src="assets/img/logo/logo.png"></a>
         </h1>
         <div id="fv">
-            <picture>
-                <source media="(min-width: 767px)" srcset="assets/img/visual/visual_1_pc.png">
-                <img src="assets/img/visual/visual_1_sp.png">
-            </picture>
+    　　<!--スライダ実装テスト-->
+        <div class="slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_1_pc.png">
+                            <img src="assets/img/visual/visual_1_sp.png">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_2_pc.png">
+                            <img src="assets/img/visual/visual_2_sp.png">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_3_pc.png">
+                            <img src="assets/img/visual/visual_3_sp.png">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--/スライダ実装テスト-->
             <div id="fv_logo">
                 <picture>
                     <source media="(min-width: 767px)" srcset="assets/img/text/visual_text_pc.png">
@@ -105,6 +128,26 @@
   <footer>
     <p>Copyright © Shimobaru.All RIGHT RESERVED.</p>
   </footer>
-</body>
 
+  <script>
+  window.onload = function() {
+	var mySwiper = new Swiper ('.swiper-container', {
+		slidesPerView:1,//画像を何枚表示するか
+		spaceBetween: 0,//何ピクセル画像の間隔をあけるか
+		centeredSlides : true,//見切らせたい場合メイン画像をセンターにもってくるか
+		//自動再生する場合
+		autoplay: {
+		delay: 3000, //3秒後に次の画像に代わる
+		},
+		loop: true,//最後の画像までいったらループする
+	});
+}
+</script>
+
+
+<script src="assets/js/swiper.min.js"></script>
+<script>
+      var swiper = new Swiper('.swiper-container');
+</script>
+</body>
 </html>
