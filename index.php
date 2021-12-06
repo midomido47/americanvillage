@@ -12,17 +12,19 @@
 
 <body>
   <header>
-    <ul id="nav">
-        <li>Menu01</li>
-        <li>Menu02</li>
-        <li>Menu03</li>
-        <li>Menu04</li>
-    </ul>
+      <div class="nav-box">
+            <ul id="nav-content">
+                <li>Menu01</li>
+                <li>Menu02</li>
+                <li>Menu03</li>
+                <li>Menu04</li>
+            </ul>
+        </div>
   </header>
 
   <main>
     <div id="fv_container">
-        <h1 id="logo" alt="ああああ">ロゴ</h1>
+        <img src="https://dsm01pap002files.storage.live.com/y4mykXg34aKuX3n8PKNxh9Y4a0rM_qCCHA0D4RAkkVHjt2chFmNYya1D6vMQyFKXoxQU99E_l3qQ19T1t0JQbMS4VLBFlVcv9Snq-R7mkostx1MpuITmLET9j2wb48Yv9hW3SUqfxGRNdhgO9hcl5aX7aa8flzSno5I9hwSQAQQqhBXhWO35cFkEZCY_KwZnF6f8fkICoHMJSuknaaBXn1cIA/logo.png?psid=1&width=242&height=242&cropMode=center" alt="logo">
         <div id=nav>FVエリア</div>
         <div id="">進化をし続ける「街」アメリカンビレッジマガジン</div>
     </div>

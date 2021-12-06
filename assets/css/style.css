@@ -1,0 +1,15 @@
+header{
+    height: 80px;
+}
+
+.nav-box{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#nav-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
