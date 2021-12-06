@@ -5,61 +5,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-  <title>Welcome to Nexseed</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>American Village</title>
 </head>
 
 <body>
   <header>
-    <div class="header-left">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logo" class="logo">
-      <span>NexSeed</span>
-    </div>
-    <input type="checkbox" id="wrap">
-    <label class="hamburger" for="wrap">
-      <span class="pate"></span>
-    </label>
-    <div class="header-right">
-      <ul>
-        <li>Programming</li>
-        <li>English</li>
-      </ul>
-    </div>
-    <?php wp_head(); ?> //:コロンはナミかっこの代わり
+    <ul id="nav">
+        <li>Menu01</li>
+        <li>Menu02</li>
+        <li>Menu03</li>
+        <li>Menu04</li>
+    </ul>
   </header>
 
   <main>
-    <section class="container">
-      <h1 class="title">Welcome to Nexseed</h1>
-      <div id =""></>
-      <ul class="guideline">
-        <li>Be Athlete</li>
-        <li>Go World</li>
-        <li>Enjoy Everything</li>
-      </ul>
-    </section>
-    <section class="programming">
-      <h2>Programming</h2>
-      <div class="contents">
-        <p class="description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem mollitia earum eligendi animi porro consectetur?
-        </p>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/programming.jpg" alt="programming">
-      </div>
-    </section>
-    <section class="English">
-      <h2>English</h2>
-      <div class="contents">
-        <p class="description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, molestiae? Optio dolor rem necessitatibus pariatur odio nesciunt, nostrum magnam hic recusandae assumenda animi. Exercitationem mollitia earum eligendi animi porro consectetur?
-        </p>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/programming.jpg" alt="English">
-      </div>
-    </section>
+    <div id="fv_container">
+        <h1 id="logo" alt="ああああ">ロゴ</h1>
+        <div id=nav>FVエリア</div>
+        <div id="">進化をし続ける「街」アメリカンビレッジマガジン</div>
+    </div>
+    
+    <div id="container">
+      <h2 class="title">Latest Articles</h2>
+      <div id="articles">
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/20</li>
+                <li class="text">おしゃれカフェがありますよ</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/19</li>
+                <li class="text">あのネオンはいつ交換するのか！？観覧車の謎に迫る！</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/18</li>
+                <li class="text">ラソナの社内はこんなのよ</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/17</li>
+                <li class="text">お隣のアラハはハワイ？</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/16</li>
+                <li class="text">なぜてんと？ラソナの人に聞いてみた</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+
+        <a href="" class="article">
+            <ul>
+                <p class="pic">画像e</p>
+                <li class="date">2018/5/15</li>
+                <li class="text">ベイエリアおしゃれすぎる空間</li>
+                <li class="readmore">READ MORE</li>
+            </ul>
+        </a>
+    </div>
   </main>
+  
   <footer>
-    <p>Copyright <small>&copy;</small> SeedKun Inc.</p>
+    <p>Copyright © Shimobaru.All RIGHT RESERVED.</p>
   </footer>
 </body>
 
