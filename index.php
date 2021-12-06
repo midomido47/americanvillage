@@ -97,8 +97,8 @@
                     <li class="readmore">READ MORE</li>
                 </a>
             </li>
-
         </ul>
+        </div>
     </div>
   </main>
   
