@@ -33,7 +33,7 @@
 
         <a href="" class="article">
             <ul>
-                <p class="pic">画像e</p>
+                <p class="pic">画像</p>
                 <li class="date">2018/5/20</li>
                 <li class="text">おしゃれカフェがありますよ</li>
                 <li class="readmore">READ MORE</li>
