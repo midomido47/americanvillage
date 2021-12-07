@@ -13,9 +13,16 @@
 
 <body>
   <header>
+<<<<<<< HEAD
   <h1 id="logo" alt="American Village">
             <a href="/"><img src="./assets/img/logo/logo.png"></a>
   </h1>
+=======
+
+    <h1 id="logo" alt="American Village">
+        <a href="/"><img src="./assets/img/logo/logo.png"></a>
+    </h1>
+>>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
   　　<!--ハンバーガー実装テスト-->
         <nav class="gnavi__pc-style">
             <ul>
@@ -48,6 +55,10 @@
 
   <main>
     <div id="fv_container">
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
         <div id="fv">
         <!--新しいスライダ-->
         <div class="swiper-container">
@@ -93,15 +104,27 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
             </div>-->
             <!--スライダ実装テスト-->
             <!--<div id="fv_logo">
+=======
+            </div>
+            
+            <!--/スライダ実装テスト-->
+            <div id="fv_logo">
+>>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
                 <picture>
                     <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
-                    <img src="./assets/img/text/visual_text_sp.png">
+                    <img src="./assets/img/text/visual_text_sp.png" width="300">
                 </picture>
             </div>
+<<<<<<< HEAD
         </div>-->
+=======
+        </div>
+        
+>>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
         <div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
     </div>
     
