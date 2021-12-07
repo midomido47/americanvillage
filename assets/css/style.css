@@ -323,6 +323,12 @@ footer p{
           flex-direction: column;
         }
 
+        #articles li{
+          width: 100%;
+        }
+
+
+
     }
 
 
