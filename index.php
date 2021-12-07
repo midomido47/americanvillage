@@ -6,14 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/reset.css">
-  <!--<link rel="stylesheet" href="./assets/css/style_nk.css">-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <title>American Village</title>
 </head>
 
 <body>
   <header>
+  <h1 id="logo" alt="American Village">
+            <a href="/"><img src="./assets/img/logo/logo.png"></a>
+  </h1>
   　　<!--ハンバーガー実装テスト-->
         <nav class="gnavi__pc-style">
             <ul>
@@ -46,12 +48,29 @@
 
   <main>
     <div id="fv_container">
-        <h1 id="logo" alt="American Village">
-            <a href="/"><img src="./assets/img/logo/logo.png"></a>
-        </h1>
         <div id="fv">
+        <!--新しいスライダ-->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_1_pc.png');">
+                </div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_2_pc.png');">
+                </div>
+                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_3_pc.png');">
+                </div>
+            </div>
+        </div>
+        <div id="fv_logo">
+                <picture>
+                    <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
+                    <img src="./assets/img/text/visual_text_sp.png">
+                </picture>
+        </div>
+        <!---->
+
         　　<!--スライダ実装テスト-->
-            <div class="slide">
+            <!--<div class="slide">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -74,15 +93,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/スライダ実装テスト-->
-            <div id="fv_logo">
+            </div>-->
+            <!--スライダ実装テスト-->
+            <!--<div id="fv_logo">
                 <picture>
                     <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
                     <img src="./assets/img/text/visual_text_sp.png">
                 </picture>
             </div>
-        </div>
+        </div>-->
         <div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
     </div>
     
