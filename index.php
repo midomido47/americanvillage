@@ -14,6 +14,10 @@
 
 <body>
   <header>
+
+    <h1 id="logo" alt="American Village">
+        <a href="/"><img src="./assets/img/logo/logo.png"></a>
+    </h1>
   　　<!--ハンバーガー実装テスト-->
         <nav class="gnavi__pc-style">
             <ul>
@@ -46,9 +50,7 @@
 
   <main>
     <div id="fv_container">
-        <h1 id="logo" alt="American Village">
-            <a href="/"><img src="./assets/img/logo/logo.png"></a>
-        </h1>
+        
         <div id="fv">
         　　<!--スライダ実装テスト-->
             <div class="slide">
@@ -75,14 +77,16 @@
                     </div>
                 </div>
             </div>
+            
             <!--/スライダ実装テスト-->
             <div id="fv_logo">
                 <picture>
                     <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
-                    <img src="./assets/img/text/visual_text_sp.png">
+                    <img src="./assets/img/text/visual_text_sp.png" width="300">
                 </picture>
             </div>
         </div>
+        
         <div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
     </div>
     
