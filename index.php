@@ -13,16 +13,11 @@
 
 <body>
   <header>
-<<<<<<< HEAD
-  <h1 id="logo" alt="American Village">
-            <a href="/"><img src="./assets/img/logo/logo.png"></a>
-  </h1>
-=======
 
-    <h1 id="logo" alt="American Village">
+  <h1 id="logo" alt="American Village">
         <a href="/"><img src="./assets/img/logo/logo.png"></a>
-    </h1>
->>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
+  </h1>
+
   　　<!--ハンバーガー実装テスト-->
         <nav class="gnavi__pc-style">
             <ul>
@@ -55,77 +50,24 @@
 
   <main>
     <div id="fv_container">
-<<<<<<< HEAD
-=======
-        
->>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
         <div id="fv">
-        <!--新しいスライダ-->
-        <div class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_1_pc.png');">
-                </div>
-                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_2_pc.png');">
-                </div>
-                <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_3_pc.png');">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_1_pc.png');">
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_2_pc.png');">
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_3_pc.png');">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="fv_logo">
+            <div id="fv_logo">
                 <picture>
                     <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
                     <img src="./assets/img/text/visual_text_sp.png">
                 </picture>
-        </div>
-        <!---->
-
-        　　<!--スライダ実装テスト-->
-            <!--<div class="slide">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_1_pc.png">
-                                <img src="./assets/img/visual/visual_1_sp.png">
-                            </picture>
-                        </div>
-                        <div class="swiper-slide">
-                            <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_2_pc.png">
-                                <img src="./assets/img/visual/visual_2_sp.png">
-                            </picture>
-                        </div>
-                        <div class="swiper-slide">
-                            <picture>
-                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_3_pc.png">
-                                <img src="./assets/img/visual/visual_3_sp.png">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-<<<<<<< HEAD
-            </div>-->
-            <!--スライダ実装テスト-->
-            <!--<div id="fv_logo">
-=======
             </div>
-            
-            <!--/スライダ実装テスト-->
-            <div id="fv_logo">
->>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
-                <picture>
-                    <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
-                    <img src="./assets/img/text/visual_text_sp.png" width="300">
-                </picture>
-            </div>
-<<<<<<< HEAD
-        </div>-->
-=======
-        </div>
-        
->>>>>>> 1d49a936c4c6c343a1e020307b18d0450eb1628f
-        <div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
+        　<div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
     </div>
     
     <div id="container">
