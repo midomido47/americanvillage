@@ -1,15 +1,83 @@
+body{
+    width: 1152px;    
+}
 header{
     height: 80px;
-}
-
-.nav-box{
-    width: 40%;
     display: flex;
     justify-content: flex-end;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+#main{
+    margin: 0 auto;
+}
+/* ナビ */
+#gnav{display: flex;
+    align-items: center;
+}
+#menu{
+    margin: 0 10px ;
+}
+
+/* ロゴ */
+#logo img{
+    position: absolute; top:15px; left:30px;
+}
+
+/* fv */
+#fv_container{
+    width: 100%;
+}
+#fv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fv_logo{
+    position: absolute; top:316px; left:654px;
+}
+#catch{
+    margin: 15px 40px;
+}
+
+/* ブログ記事 */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+    margin: 30px 0
+    ;
+}
+#articles_box{
+    width:100%;
+   
 
 }
-#nav-content{
+#articles{
     display: flex;
-    justify-content: space-between;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+/* フッター */
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
