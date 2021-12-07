@@ -317,3 +317,20 @@ footer p{
         }
 
     }
+
+
+
+    /*swiper調整*/
+.swiper-wrapper .swiper-slide {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 448px; 
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.swiper-container{
+  width:calc(100% - 128px);
+}
