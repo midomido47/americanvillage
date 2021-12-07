@@ -52,7 +52,7 @@
     <div id="fv_container">
         <div id="fv">
             <div class="swiper-container">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper only_pc">
                     <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_1_pc.png');">
                     </div>
                     <div class="swiper-slide" style="background-image: url('./assets/img/visual/visual_2_pc.png');">
