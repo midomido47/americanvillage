@@ -322,25 +322,24 @@ footer p{
             top: 22px;
             left: -131px;
             z-index: 2;
-        }
+      }
 
-        
-
-        header #logo {
-            position: absolute;
-            top:25px;
-        }
+      header #logo {
+          position: absolute;
+          top:25px;
+      }
 
       #pickup {
-          flex-direction: column;
-        }
+        flex-direction: column;
+      }
 
-        #articles li{
-          width: 100%;
-        }
-
-
-
+      #articles li{
+        width: 100%;
+      }
+      #fv_container #catch{
+        text-align: center;
+        font-size:24px;
+      }
     }
 
 
