@@ -10,12 +10,17 @@ header {
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
 
-header #logo {
+header #logo{
     position: absolute;
-    top:25px;
+    top: 30px;
+    left: 10px;
+    z-index: 3;
 }
+
+
 
 .gnavi__pc-style {
   margin: 0 0 0 auto;
@@ -169,7 +174,7 @@ h2 {
 }
 
 #fv{
-    margin-top: 200px;
+    /* margin-top: 200px; */
     margin-bottom: 10px;
 }
 
@@ -299,6 +304,10 @@ footer p{
             align-items: center;
         }
 
+        #fv{
+
+            margin-bottom: 10px;
+        }
         #fv_container {
             width: 100%;
         }
@@ -308,16 +317,19 @@ footer p{
        }
 
        #fv #fv_logo {
+           width: 300px;
             position: absolute;
             top: 22px;
             left: -131px;
             z-index: 2;
         }
 
-        /* #fv_container #logo {
-            position: relative;
-            top: -670px;
-        } */
+        
+
+        header #logo {
+            position: absolute;
+            top:25px;
+        }
 
       #pickup {
           flex-direction: column;
