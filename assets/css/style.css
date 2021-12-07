@@ -4,13 +4,19 @@ header {
     width: 1152px;
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative; 
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
 }
+
+header #logo {
+    position: absolute;
+    top:25px;
+}
+
 .gnavi__pc-style {
   margin: 0 0 0 auto;
 }
@@ -162,14 +168,8 @@ h2 {
   z-index: 3;
 }
 
- header #logo {
-    position: absolute;
-    /* top: -100px;
-    z-index: 3; */
-}
-
 #fv{
-    position: relative;
+    margin-top: 200px;
     margin-bottom: 10px;
 }
 

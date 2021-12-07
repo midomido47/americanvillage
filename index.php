@@ -64,7 +64,7 @@
             <div id="fv_logo">
                 <picture>
                     <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
-                    <img src="./assets/img/text/visual_text_sp.png">
+                    <img src="./assets/img/text/visual_text_sp.png" width="300">
                 </picture>
             </div>
         　<div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
