@@ -5,58 +5,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <!--<link rel="stylesheet" href="./assets/css/style_nk.css">-->
+  <link rel="stylesheet" href="./assets/css/swiper.min.css">
   <title>American Village</title>
 </head>
 
 <body>
   <header>
-    <ul id="gnav">
-        <li><a href="#">Menu01</a></li>
-        <li><a href="#">Menu02</a></li>
-        <li><a href="#">Menu03</a></li>
-        <li><a href="#">Menu04</a></li>
-    </ul>
+  　　<!--ハンバーガー実装テスト-->
+        <nav class="gnavi__pc-style">
+            <ul>
+                <li><a href="#">Menu01</a></li>
+                <li><a href="#">Menu02</a></li>
+                <li><a href="#">Menu03</a></li>
+                <li><a href="#">Menu04</a></li>
+            </ul>
+        </nav>
+
+        <!--768px以下で表示-->
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="gnavi__sp-style">
+            <ul>
+                <li><a href="#">Menu01</a></li>
+                <li><a href="#">Menu02</a></li>
+                <li><a href="#">Menu03</a></li>
+                <li><a href="#">Menu04</a></li>
+            </ul>
+        </nav>
+        <!--/768px以下で表示-->
+
+    <!--ハンバーガー実装テスト-->
   </header>
 
   <main>
     <div id="fv_container">
         <h1 id="logo" alt="American Village">
-            <a href="/"><img src="assets/img/logo/logo.png"></a>
+            <a href="/"><img src="./assets/img/logo/logo.png"></a>
         </h1>
         <div id="fv">
-    　　<!--スライダ実装テスト-->
-        <div class="slide">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_1_pc.png">
-                            <img src="assets/img/visual/visual_1_sp.png">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_2_pc.png">
-                            <img src="assets/img/visual/visual_2_sp.png">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 767px)" srcset="assets/img/visual/visual_3_pc.png">
-                            <img src="assets/img/visual/visual_3_sp.png">
-                        </picture>
+        　　<!--スライダ実装テスト-->
+            <div class="slide">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_1_pc.png">
+                                <img src="./assets/img/visual/visual_1_sp.png">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_2_pc.png">
+                                <img src="./assets/img/visual/visual_2_sp.png">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(min-width: 767px)" srcset="./assets/img/visual/visual_3_pc.png">
+                                <img src="./assets/img/visual/visual_3_sp.png">
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    <!--/スライダ実装テスト-->
+            <!--/スライダ実装テスト-->
             <div id="fv_logo">
                 <picture>
-                    <source media="(min-width: 767px)" srcset="assets/img/text/visual_text_pc.png">
-                    <img src="assets/img/text/visual_text_sp.png">
+                    <source media="(min-width: 767px)" srcset="./assets/img/text/visual_text_pc.png">
+                    <img src="./assets/img/text/visual_text_sp.png">
                 </picture>
             </div>
         </div>
@@ -69,56 +91,56 @@
         <ul>
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_1.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_1.png"></p>
                     <p class="date">2018/5/20</p>
                     <p class="text">おしゃれカフェがありますよ</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
         
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_2.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_2.png"></p>
                     <p class="date">2018/5/19</p>
                     <p class="text">あのネオンはいつ交換するのか！？<br>観覧車の謎に迫る！</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
 
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_3.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_3.png"></p>
                     <p class="date">2018/5/18</p>
                     <p class="text">ラソナの社内はこんなのよ</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
 
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_4.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_4.png"></p>
                     <p class="date">2018/5/17</p>
                     <p class="text">お隣のアラハはハワイ？</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
 
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_5.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_5.png"></p>
                     <p class="date">2018/5/16</p>
                     <p class="text">なぜてんと？ラソナの人に聞いてみた</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
 
             <li>
                 <a href="" class="article">
-                    <p class="pic"><img src="assets/img/post/post_img_6.png"></p>
+                    <p class="pic"><img src="./assets/img/post/post_img_6.png"></p>
                     <p class="date">2018/5/15</p>
                     <p class="text">ベイエリアおしゃれすぎる空間</p>
-                    <p class="readmore">READ MORE</p>
                 </a>
+                <p class="readmore"><a href="#">READ MORE</a></p>
             </li>
         </ul>
         </div>
@@ -129,25 +151,9 @@
     <p>Copyright © Shimobaru.All RIGHT RESERVED.</p>
   </footer>
 
-  <script>
-  window.onload = function() {
-	var mySwiper = new Swiper ('.swiper-container', {
-		slidesPerView:1,//画像を何枚表示するか
-		spaceBetween: 0,//何ピクセル画像の間隔をあけるか
-		centeredSlides : true,//見切らせたい場合メイン画像をセンターにもってくるか
-		//自動再生する場合
-		autoplay: {
-		delay: 3000, //3秒後に次の画像に代わる
-		},
-		loop: true,//最後の画像までいったらループする
-	});
-}
-</script>
 
-
-<script src="assets/js/swiper.min.js"></script>
-<script>
-      var swiper = new Swiper('.swiper-container');
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./assets/js/swiper.min.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
