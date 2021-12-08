@@ -6,17 +6,17 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                 <!--後でonly_pcとonly_sp追加-->
-                    <div class="swiper-slide only_pc" style="background-image: url('./assets/img/visual/visual_1_pc.png');">
+                    <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_1_pc.png');">
                         </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('./assets/img/visual/visual_1_sp.png');">
+                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_1_sp.png');">
                         </div>
-                        <div class="swiper-slide only_pc" style="background-image: url('./assets/img/visual/visual_2_pc.png');">
+                        <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_2_pc.png');">
                         </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('./assets/img/visual/visual_2_sp.png');">
+                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_2_sp.png');">
                         </div>
-                        <div class="swiper-slide only_pc" style="background-image: url('./assets/img/visual/visual_3_pc.png');">
+                        <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_3_pc.png');">
                         </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('./assets/img/visual/visual_3_sp.png');">
+                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_3_sp.png');">
                         </div>
                     </div>
                 <!--後でonly_pcとonly_sp追加-->
