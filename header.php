@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/swiper.min.css">
   <title>American Village</title>
-  <?php wp_head();?>;
+  <?php wp_head();?>
 </head>
 
 <body>
