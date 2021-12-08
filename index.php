@@ -33,49 +33,31 @@
     <div id="container">
       <h2 class="title">Latest Articles</h2>
       <div id="articles">
-        <ul>
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_1.png"></p>
-                <p class="date">2018/5/20</p>
-                <p class="text">おしゃれカフェがありますよ</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
-        
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_2.png"></p>
-                <p class="date">2018/5/19</p>
-                <p class="text">あのネオンはいつ交換するのか！？<br>観覧車の謎に迫る！</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
 
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_3.png"></p>
-                <p class="date">2018/5/18</p>
-                <p class="text">ラソナの社内はこんなのよ</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
 
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_4.png"></p>
-                <p class="date">2018/5/17</p>
-                <p class="text">お隣のアラハはハワイ？</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
 
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_5.png"></p>
-                <p class="date">2018/5/16</p>
-                <p class="text">なぜてんと？ラソナの人に聞いてみた</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
+        <?php
+      if(have_posts()):
+        while(have_posts()):
+          the_post(); ?>
+          <div id="post-<?php the_ID();?>" <?php post_class(); ?>>
+            <h3><?php the_title(); ?></h3>
+            <ul>
+              <li>
+                <date><?php echo get_the_date(); ?></date>
+              </li>
+              <li><?php the_category();?></li>
+            </ul>
+            <?php the_post_thumbnail(); ?>
+            <p><?php the_excerpt(); ?></p>
+          </div>
+        <?php endwhile;
+      else : ?>
+        <p>表示する記事がありません</p>
+      <?php endif;?>
 
-            <li>
-                <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_6.png"></p>
-                <p class="date">2018/5/15</p>
-                <p class="text">ベイエリアおしゃれすぎる空間</p>
-                <p class="readmore"><a href="#">READ MORE</a></p>
-            </li>
-        </ul>
+
+
         </div>
     </div>
   </main>
