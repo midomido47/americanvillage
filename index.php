@@ -23,7 +23,7 @@
             </div>
             <div id="fv_logo">
                 <picture>
-                    <source media="(min-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/text/visual_text_pc.png">
+                    <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/text/visual_text_pc.png">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/text/visual_text_sp.png" >
                 </picture>
             </div>
