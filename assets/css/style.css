@@ -1,3 +1,14 @@
+
+/*追加*/
+.only_pc{
+  display: block;
+}
+
+.only_sp{
+  display: none;
+}
+
+
 /*ハンバーガー用*/
 
 header {
@@ -211,34 +222,31 @@ h2 {
   flex-direction: column;
   padding-bottom: 20px;
   margin-bottom: 40px;
+  text-align: left;  
 }
 
 #articles li:hover {
 	transition: all .3s ease; 
   box-shadow: 0px 0px 10px 0px #999;
 }
-#articles a:not(.readmore a) {
+
+#articles li::after {
+  position: absolute;
   display: block;
-  text-decoration: none;
-  text-align: left;
+  content: '';
+  width: 2rem;
+  background: #000;
+  height: 1px;
+  right: 10px;
+  bottom: 20px;
+  transition: .5s;
 }
 
-/*
-#articles a:not(.readmore a) {
-	transition: all .3s ease; 
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  text-align: left;
-  margin-bottom: 50px;
+#articles li:hover::after {
+  width: 5rem;
 }
 
-#articles a:not(.readmore a):hover {
-    box-shadow: 0px 0px 10px 0px #999;
-}
-*/
-
-#articles a:not(.readmore a) img{
+#articles li p img{
   width: 100%;
 }
 
@@ -255,24 +263,6 @@ h2 {
   margin-top: 40px;
 }
 
-#articles .readmore a::after {
-  position: absolute;
-  display: block;
-  content: '';
-  width: 2rem;
-  background: #000;
-  height: 1px;
-  right: 10px;
-  bottom: 4px;
-  transition: .5s;
-}
-
-#articles .readmore a:hover::after {
-  width: 5rem;
-}
-
-
-
 footer {
     width: 100%;
     background: #000;
@@ -288,6 +278,27 @@ footer p{
 
 
     @media screen and (max-width: 767px){
+        .only_pc{
+          display: none;
+        }
+      
+        .only_sp{
+          display: block;
+        }
+      
+        .swiper-wrapper{
+          width:100%;  
+        }
+      
+        .swiper-wrapper .swiper-slide {
+          width:100%;
+          height: 88.96211vh; 
+          background-size: 100%;
+        }
+      
+        .swiper-container{
+          width:100%;
+        }
 
         header{
             width: 120px;
@@ -322,11 +333,9 @@ footer p{
             top: 22px;
             left: -131px;
             z-index: 2;
-        }
+        } 
 
-        
-
-        header #logo {
+      header #logo {
             position: relative;
             top:25px;
         }
@@ -339,18 +348,16 @@ footer p{
           width: 100%;
         }
 
-
-
     }
 
 
 
-    /*swiper調整*/
+/*swiper調整*/
 .swiper-wrapper .swiper-slide {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 448px; 
+  height: 66.1743vh; 
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
