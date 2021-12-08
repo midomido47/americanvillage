@@ -290,6 +290,7 @@ footer p{
 
 .swiper-container{
   width:calc(100% - 128px);
+  height: 448px;
 }
 
     @media screen and (max-width: 767px){
@@ -332,7 +333,6 @@ footer p{
         }
 
         #fv{
-
             margin-bottom: 10px;
         }
         #fv_container {
