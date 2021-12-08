@@ -35,26 +35,22 @@
       <div id="articles">
 
 
-
+      <ul>
         <?php
             if(have_posts()):
             while(have_posts()):
             the_post(); ?>
-
-            <ul>
                 <li>
                     <p class="pic"><?php the_post_thumbnail(); ?></p>
                     <p class="date"><?php echo get_the_date(); ?></p>
                     <p class="text"><?php the_title(); ?></p>
                     <p class="readmore"><a href="<?php the_permalink(); ?>">READ MORE</a></p>
                 </li>
-            </ul>
-
             <?php endwhile;
             else : ?>
             <p>表示する記事がありません</p>
         <?php endif;?>
-
+        </ul>
 
 
         </div>
