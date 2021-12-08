@@ -37,10 +37,23 @@
 
 
         <?php
-      if(have_posts()):
-        while(have_posts()):
-          the_post(); ?>
-          <div id="post-<?php the_ID();?>" <?php post_class(); ?>>
+            if(have_posts()):
+            while(have_posts()):
+            the_post(); ?>
+
+            <ul>
+                <li>
+                    <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_2.png"></p>
+                    <p class="date"><?php echo get_the_date(); ?></p>
+                    <p class="text"><?php the_title(); ?></p>
+                    <p class="readmore"><a href="#">READ MORE</a></p>
+                </li>
+            </ul>
+
+
+
+
+            <div id="post-<?php the_ID();?>" <?php post_class(); ?>>
             <h3><?php the_title(); ?></h3>
             <ul>
               <li>
@@ -51,10 +64,13 @@
             <?php the_post_thumbnail(); ?>
             <p><?php the_excerpt(); ?></p>
           </div>
-        <?php endwhile;
-      else : ?>
-        <p>表示する記事がありません</p>
-      <?php endif;?>
+
+
+
+            <?php endwhile;
+            else : ?>
+            <p>表示する記事がありません</p>
+        <?php endif;?>
 
 
 
