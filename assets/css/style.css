@@ -222,7 +222,8 @@ h2 {
   flex-direction: column;
   padding-bottom: 20px;
   margin-bottom: 40px;
-  text-align: left;  
+  text-align: left; 
+  position: relative; 
 }
 
 #articles li:hover {
