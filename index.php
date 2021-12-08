@@ -43,29 +43,12 @@
 
             <ul>
                 <li>
-                    <p class="pic"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/post/post_img_2.png"></p>
+                    <p class="pic"><?php the_post_thumbnail(); ?></p>
                     <p class="date"><?php echo get_the_date(); ?></p>
                     <p class="text"><?php the_title(); ?></p>
-                    <p class="readmore"><a href="#">READ MORE</a></p>
+                    <p class="readmore"><a href="<?php the_permalink(); ?>">READ MORE</a></p>
                 </li>
             </ul>
-
-
-
-
-            <div id="post-<?php the_ID();?>" <?php post_class(); ?>>
-            <h3><?php the_title(); ?></h3>
-            <ul>
-              <li>
-                <date><?php echo get_the_date(); ?></date>
-              </li>
-              <li><?php the_category();?></li>
-            </ul>
-            <?php the_post_thumbnail(); ?>
-            <p><?php the_excerpt(); ?></p>
-          </div>
-
-
 
             <?php endwhile;
             else : ?>
