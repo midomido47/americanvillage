@@ -20,6 +20,7 @@
                         </div>
                     </div>
                 <!--後でonly_pcとonly_sp追加-->
+                <?php echo do_shortcode('[metaslider id="36"]'); ?>
             </div>
             <div id="fv_logo">
                 <picture>
