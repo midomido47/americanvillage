@@ -4,23 +4,7 @@
     <div id="fv_container">
         <div id="fv">
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                <!--後でonly_pcとonly_sp追加-->
-                    <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_1_pc.png');">
-                        </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_1_sp.png');">
-                        </div>
-                        <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_2_pc.png');">
-                        </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_2_sp.png');">
-                        </div>
-                        <div class="swiper-slide only_pc" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_3_pc.png');">
-                        </div>
-                        <div class="swiper-slide only_sp" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/visual/visual_3_sp.png');">
-                        </div>
-                    </div>
-                <!--後でonly_pcとonly_sp追加-->
-                <?php echo do_shortcode('[metaslider id="36"]'); ?>
+                <?php echo do_shortcode('[metaslider id="48"]'); ?>
             </div>
             <div id="fv_logo">
                 <picture>
