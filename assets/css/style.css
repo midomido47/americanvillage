@@ -255,7 +255,7 @@ h2 {
   width: 5rem;
 }
 
-#articles li p img{
+#articles li .pic img{
   width: 100%;
 }
 
@@ -379,9 +379,17 @@ footer p{
         text-align: center;
       }
 
+<<<<<<< HEAD
       #articles li .pic img {
         width: 100%;
         height: 100%;
     }
+=======
+      #articles li .pic img{
+        width: 100%;
+        height: 100%;
+      }
+      
+>>>>>>> 57f2d7cd22c46b8cac80a033f1d3e2d4553a0a9c
 
     }
