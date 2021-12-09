@@ -4,7 +4,7 @@
     <div id="fv_container">
         <div id="fv">
             <div class="swiper-container">
-                <?php echo do_shortcode('[metaslider id="48"]'); ?>
+                <?php echo do_shortcode('[metaslider id="69"]'); ?>
             </div>
             <div id="fv_logo">
                 <picture>
