@@ -14,4 +14,26 @@
   }
   add_filter('register_post_type_args','post_has_archive',10,2);
 
+
+  //   //PCでのみ表示するスライドショー
+  // function if_is_pc($atts, $content = null )
+  // {
+  // $content = do_shortcode( $content);
+  //     if(!is_mobile())
+  //         {
+  //         return $content;
+  //         }
+  // }
+  // add_shortcode('pc', 'if_is_pc');
+  // //スマートフォンでのみ表示するスライドショー
+  // function if_is_mo($atts, $content = null )
+  // {
+  // $content = do_shortcode( $content);
+  //     if(is_mobile())
+  //         {
+  //         return $content;
+  //         }
+  // }
+  // add_shortcode('mo', 'if_is_mo');
 ?>
+

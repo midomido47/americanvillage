@@ -4,9 +4,17 @@
     <div id="fv_container">
         <div id="fv">
             <div class="swiper-container">
-            <?php
-echo do_shortcode('[smartslider3 slider="2"]');
-?>
+
+                <div class="slider1">
+
+                    <div class="only_pc">
+                        <?php echo do_shortcode('[smartslider3 slider="1"]');?>
+                    </div>
+                    <div class="only_sp">
+                        <?php echo do_shortcode('[smartslider3 slider="2"]');?>
+                    </div>
+                    
+                </div>
             </div>
             <div id="fv_logo">
                 <picture>
