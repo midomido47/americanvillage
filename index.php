@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+
   <main>
     <div id="fv_container">
         <div id="fv">
@@ -8,10 +10,10 @@
                 <div class="slider1">
 
                     <div class="only_pc">
-                        <?php echo do_shortcode('[smartslider3 slider="1"]');?>
+                        <?php echo do_shortcode('[smartslider3 slider="2"]');?>
                     </div>
                     <div class="only_sp">
-                        <?php echo do_shortcode('[smartslider3 slider="2"]');?>
+                        <?php echo do_shortcode('[smartslider3 slider="4"]');?>
                     </div>
                     
                 </div>
@@ -22,7 +24,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/text/visual_text_sp.png" >
                 </picture>
             </div>
-        　<div id="catch">進化をし続ける「街」アメリカンビレッジマガジン</div>
+        　<div id="catch">進化をし続ける「街」<br class="only_sp">アメリカンビレッジマガジン</div>
     </div>
     
     <div id="container">
