@@ -12,8 +12,6 @@ body{
   font-family: "游ゴシック体", YuGothic;
 }
 
-
-
 /*ハンバーガー用*/
 
 header {
@@ -299,6 +297,7 @@ footer p{
   width:calc(100% - 128px);
   height: 448px;
 }
+
 
     @media screen and (max-width: 767px){
         .only_pc{

@@ -1,4 +1,7 @@
 <?php
+
+
+
   // ページのメニューを管理画面で操作できるために機能
 
   add_theme_support('menus');
