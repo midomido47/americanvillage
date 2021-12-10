@@ -13,6 +13,8 @@
         });
     });
 
+    
+
     // $(function () {
     //     var elem = document.querySelector(".swiper-container");
     //     if (elem !== null) { //swiper-containerがあれば…
